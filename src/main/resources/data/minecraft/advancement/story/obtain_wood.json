@@ -21,7 +21,6 @@
           ]
         }
       },
-
       "Obtain_stripped": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
@@ -38,44 +37,35 @@
                     "minecraft:stripped_warped_stem",
                     "minecraft:stripped_cherry_log",
                     "minecraft:stripped_mangrove_log"
-            ]
+                ]
             }
           ]
         }
       }
     },
-
     "display": {
-
     "icon": {
         "id": "minecraft:oak_log"
     },
-
       "title": {
         "text": "Lumberjack",
         "bold": false
     },
-
       "description": {
         "text": "Cut down a tree"
     },
-
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
-
     },
-
     "parent": "minecraft:story/root",
-
     "requirements": [
       [
         "Obtain_log",
         "Obtain_stripped"
       ]
     ],
-
     "rewards": {
         "recipes": [
             "minecraft:crafting_table",
@@ -85,7 +75,6 @@
             "minecraft_wooden_sword",
             "minecraft:wooden_shovel"
         ],
-
         "experience": 10
     }
   }  

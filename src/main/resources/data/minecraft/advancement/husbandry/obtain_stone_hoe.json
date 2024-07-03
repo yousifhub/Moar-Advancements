@@ -11,36 +11,28 @@
         }
       }
     },
-
     "display": {
-
     "icon": {
         "id": "minecraft:stone_hoe"
     },
-
       "title": {
         "text": "Stone Age Dedication",
         "bold": false
     },
-
       "description": {
         "text": "Craft or find a stone hoe, you went a bit far"
     },
-
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
 
     },
-
     "parent": "minecraft:husbandry/obtain_wooden_hoe",
-
     "rewards": {
         "recipes": [
             "minecraft:iron_hoe"
         ],
-
         "experience": 40
     }
 }  
