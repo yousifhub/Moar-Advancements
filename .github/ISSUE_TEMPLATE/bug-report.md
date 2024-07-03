@@ -10,6 +10,9 @@ assignees: ''
 **Describe the bug**
 Description of what the bug is.
 
+**Version**
+Enter what version the bug happened on ex. 1.0-1.21
+
 **Sytem OS**
 (Optional) If the bug related to OS
 
