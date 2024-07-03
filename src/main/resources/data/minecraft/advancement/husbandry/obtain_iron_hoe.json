@@ -11,36 +11,27 @@
         }
       }
     },
-
     "display": {
-
     "icon": {
         "id": "minecraft:iron_hoe"
     },
-
       "title": {
         "text": "Ironic Dedication",
         "bold": false
     },
-
       "description": {
         "text": "Craft or find an iron hoe, you don't wanna go farther"
     },
-
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
-
     },
-
     "parent": "minecraft:husbandry/obtain_stone_hoe",
-
     "rewards": {
         "recipes": [
             "minecraft:diamond_hoe"
         ],
-
         "experience": 60
     }
 }  
