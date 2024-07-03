@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "moar-advancements",
+	"version": "${version}",
+	"name": "Moar Advancements",
+	"description": "This Mod Adds New Advancements to Minecraft",
+	"authors": [
+		"yousifgaming"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/moar-advancements/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.yousif.advancements.MoarAdvancements"
+		],
+		"client": [
+			"net.yousif.advancements.MoarAdvancementsClient"
+		],
+		"fabric-datagen": [
+			"net.yousif.advancements.MoarAdvancementsDataGenerator"
+		]
+	},
+	"mixins": [
+		"moar-advancements.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
