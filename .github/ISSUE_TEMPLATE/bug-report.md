@@ -1,7 +1,7 @@
 ---
-name: "[Bug Report]"
-about: Bug report
-title: "[BUG]"
+name: Bug report
+about: Report Any bugs that you encounter to fix
+title: "[Bug Report]"
 labels: bug
 assignees: ''
 
