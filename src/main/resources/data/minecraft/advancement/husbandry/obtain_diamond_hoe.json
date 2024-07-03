@@ -1,0 +1,47 @@
+{
+    "criteria": {
+      "obtain_diamond_hoe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": "minecraft:diamond_hoe"
+            }
+          ]
+        }
+      }
+    },
+
+    "display": {
+
+    "icon": {
+        "id": "minecraft:diamond_hoe"
+    },
+
+      "title": {
+        "text": "Major Dedication",
+        "bold": false
+    },
+
+      "description": {
+        "text": "Craft or find a diamond hoe, now it's the time to evaluate your life choices"
+    },
+
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+
+    },
+
+    "parent": "minecraft:husbandry/obtain_iron_hoe",
+
+    "rewards": {
+        "recipes": [
+            "minecraft:netherite_ingot",
+            "netherite_hoe_smithing"
+        ],
+
+        "experience": 80
+    }
+}  
