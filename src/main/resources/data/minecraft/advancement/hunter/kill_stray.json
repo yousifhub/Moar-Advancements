@@ -1,21 +1,21 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:drowned_spawn_egg"
+      "id": "minecraft:stray_spawn_egg"
     },
-    "title": "That's Why You Drowned!",
-    "description": "Kill a drowned",
+    "title": "Stray Out of This!",
+    "description": "Kill a stray",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:hunter/kill_zombie_villager",
+  "parent": "minecraft:hunter/kill_skeleton",
   "criteria": {
-    "kill_drowned": {
+    "kill_stray": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:drowned"
+          "type": "minecraft:stray"
         }
       }
     }

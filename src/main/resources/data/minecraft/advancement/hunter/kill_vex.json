@@ -1,21 +1,21 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:drowned_spawn_egg"
+      "id": "minecraft:vex_spawn_egg"
     },
-    "title": "That's Why You Drowned!",
-    "description": "Kill a drowned",
+    "title": "Vexinate Your Kids",
+    "description": "Kill a vex",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:hunter/kill_zombie_villager",
+  "parent": "minecraft:hunter/kill_evoker",
   "criteria": {
-    "kill_drowned": {
+    "kill_vex": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:drowned"
+          "type": "minecraft:vex"
         }
       }
     }

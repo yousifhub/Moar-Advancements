@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:hunter/kill_all_mobs",
+  "parent": "minecraft:hunter/kill_vindicator",
   "criteria": {
     "kill_evoker": {
       "trigger": "minecraft:player_killed_entity",

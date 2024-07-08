@@ -9,7 +9,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:hunter/kill_skeleton",
+  "parent": "minecraft:hunter/kill_stray",
   "criteria": {
     "kill_bogged": {
       "trigger": "minecraft:player_killed_entity",
