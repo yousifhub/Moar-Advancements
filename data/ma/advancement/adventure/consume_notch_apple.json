@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": "Immortal?",
+    "description": "Consume an Enchanted Golden Apple",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ma:adventure/obtain_notch_apple",
+  "criteria": {
+    "consume_notch_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:enchanted_golden_apple"
+        }
+      }
+    }
+  }
+}
