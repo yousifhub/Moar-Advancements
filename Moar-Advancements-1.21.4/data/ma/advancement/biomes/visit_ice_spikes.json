@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:packed_ice"
+      },
+      "title": "Ice Spikes",
+      "description": "Visit an ice spikes",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_snowy_plains",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:ice_spikes"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

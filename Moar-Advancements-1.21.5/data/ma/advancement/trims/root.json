@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:silence_armor_trim_smithing_template"
+    },
+    "title": "Pimp My Armor",
+    "description": "Your path to obtaining all armor trims",
+    "background": "minecraft:block/netherite_block",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "get_any_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": [
+            "minecraft:coast_armor_trim_smithing_template",
+            "minecraft:dune_armor_trim_smithing_template",
+            "minecraft:eye_armor_trim_smithing_template",
+            "minecraft:host_armor_trim_smithing_template",
+            "minecraft:raiser_armor_trim_smithing_template",
+            "minecraft:rib_armor_trim_smithing_template",
+            "minecraft:sentry_armor_trim_smithing_template",
+            "minecraft:shaper_armor_trim_smithing_template",
+            "minecraft:silence_armor_trim_smithing_template",
+            "minecraft:snout_armor_trim_smithing_template",
+            "minecraft:spire_armor_trim_smithing_template",
+            "minecraft:tide_armor_trim_smithing_template",
+            "minecraft:vex_armor_trim_smithing_template",
+            "minecraft:ward_armor_trim_smithing_template",
+            "minecraft:wild_armor_trim_smithing_template",
+            "minecraft:wayfinder_armor_trim_smithing_template",
+            "minecraft:bolt_armor_trim_smithing_template",
+            "minecraft:flow_armor_trim_smithing_template"
+          ]}
+        ]
+      }
+    }
+  }
+}

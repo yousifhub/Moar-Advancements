@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ravager_spawn_egg",
+      "count": 1
+    },
+    "title": "Ravage This!",
+    "description": "Kill a ravager",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ma:hunter/kill_witch",
+  "criteria": {
+    "kill_ravager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ravager"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

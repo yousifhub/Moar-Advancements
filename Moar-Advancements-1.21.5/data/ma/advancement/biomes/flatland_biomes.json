@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:grass_block" },
+    "title": "Flatland Biomes",
+    "description": "Explore all flatland biomes",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ma:biomes/adventuring_time",
+  "criteria": {
+    "plains": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:plains" } } }
+    },
+    "sunflower_plains": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:sunflower_plains" } } }
+    },
+    "snowy_plains": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:snowy_plains" } } }
+    },
+    "ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:ice_spikes" } } }
+    }
+  },
+  "requirements": [
+    ["plains"],
+    ["sunflower_plains"],
+    ["snowy_plains"],
+    ["ice_spikes"]
+  ]
+}

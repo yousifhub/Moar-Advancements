@@ -1,0 +1,38 @@
+{
+    "criteria": {
+      "obtain_wooden_hoe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": { 
+          "items": [
+            {
+                "items": "minecraft:wooden_hoe"
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+    "icon": {
+        "id": "minecraft:wooden_hoe"
+    },
+
+      "title": {
+        "text": "Not Even a Dedication",
+        "bold": false
+    },
+      "description": {
+        "text": "Craft or find a wooden hoe, just don't go too far"
+    },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:husbandry/plant_seed",
+    "rewards": {
+        "recipes": [
+            "minecraft:stone_hoe"
+        ],
+        "experience": 20
+    }
+}  

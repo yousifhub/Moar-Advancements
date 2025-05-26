@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:packed_ice"
+      },
+      "title": "Frozen Peaks",
+      "description": "Visit a frozen peaks",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_jagged_peaks",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:frozen_peaks"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:sunflower"
+      },
+      "title": "Sunflower Plains",
+      "description": "Visit a sunflower plains",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_plains",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:sunflower_plains"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

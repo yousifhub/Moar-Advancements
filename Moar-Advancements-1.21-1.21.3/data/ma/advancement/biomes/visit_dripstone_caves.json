@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:pointed_dripstone"
+      },
+      "title": "Dripstone Caves",
+      "description": "Visit a dripstone caves",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_deep_dark",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:dripstone_caves"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

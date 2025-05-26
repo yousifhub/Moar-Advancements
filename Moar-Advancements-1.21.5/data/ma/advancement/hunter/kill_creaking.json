@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creaking_spawn_egg"
+    },
+    "title": "Creaking Behind Whom?",
+    "description": "Kill a creaking by removing its heart",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ma:hunter/kill_all_mobs",
+  "criteria": {
+    "kill_creaking": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creaking"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

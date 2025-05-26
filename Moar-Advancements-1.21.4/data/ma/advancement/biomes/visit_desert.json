@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:sand"
+      },
+      "title": "Desert",
+      "description": "Visit a desert",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/aridland_biomes",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:desert"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

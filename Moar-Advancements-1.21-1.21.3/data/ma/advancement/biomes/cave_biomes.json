@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:sculk" },
+    "title": "Cave Biomes",
+    "description": "Explore all cave biomes",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ma:biomes/adventuring_time",
+  "criteria": {
+    "deep_dark": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:deep_dark" } } }
+    },
+    "dripstone_caves": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:dripstone_caves" } } }
+    },
+    "lush_caves": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:lush_caves" } } }
+    }
+  },
+  "requirements": [
+    ["deep_dark"],
+    ["dripstone_caves"],
+    ["lush_caves"]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:poppy"
+      },
+      "title": "Flower Forest",
+      "description": "Visit a flower forest",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_forest",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:flower_forest"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

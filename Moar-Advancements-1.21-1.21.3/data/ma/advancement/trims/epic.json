@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:silence_armor_trim_smithing_template"
+    },
+    "title": { "text": "Epic Trims", "color": "light_purple" },
+    "description": "Obtain all epic trims",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ma:trims/obtain_all_trims",
+  "criteria": {
+    "ward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:ward_armor_trim_smithing_template"] }]
+      }
+    },
+    "silence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:silence_armor_trim_smithing_template"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["ward"],
+    ["silence"]
+  ]
+}

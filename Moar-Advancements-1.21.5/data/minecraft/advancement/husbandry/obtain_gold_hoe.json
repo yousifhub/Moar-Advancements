@@ -1,0 +1,34 @@
+{
+    "criteria": {
+      "Obtain_gold_hoe": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": "minecraft:golden_hoe"
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+    "icon": {
+        "id": "minecraft:golden_hoe"
+    },
+      "title": {
+        "text": "Side Dedication",
+        "bold": false
+    },
+      "description": {
+        "text": "Craft or find a golden hoe, what are you even doing?"
+    },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:husbandry/obtain_wooden_hoe",
+    "rewards": {
+        "experience": 1
+    }
+}

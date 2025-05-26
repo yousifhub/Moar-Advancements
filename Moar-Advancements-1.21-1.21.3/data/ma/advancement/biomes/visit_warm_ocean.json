@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:tropical_fish"
+      },
+      "title": "Warm Ocean",
+      "description": "Visit a warm ocean",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_deep_ocean",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:warm_ocean"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+}

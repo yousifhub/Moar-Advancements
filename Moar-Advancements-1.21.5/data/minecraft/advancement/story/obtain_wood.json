@@ -1,0 +1,80 @@
+{
+    "criteria": {
+      "Obtain_log": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": [
+                    "minecraft:oak_log",
+                    "minecraft:birch_log",
+                    "minecraft:jungle_log",
+                    "minecraft:spruce_log",
+                    "minecraft:acacia_log",
+                    "minecraft:dark_oak_log",
+                    "minecraft:crimson_stem",
+                    "minecraft:warped_stem",
+                    "minecraft:cherry_log",
+                    "minecraft:mangrove_log"
+            ]
+            }
+          ]
+        }
+      },
+      "Obtain_stripped": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": [
+                    "minecraft:stripped_oak_log",
+                    "minecraft:stripped_birch_log",
+                    "minecraft:stripped_jungle_log",
+                    "minecraft:stripped_spruce_log",
+                    "minecraft:stripped_acacia_log",
+                    "minecraft:stripped_dark_oak_log",
+                    "minecraft:stripped_crimson_stem",
+                    "minecraft:stripped_warped_stem",
+                    "minecraft:stripped_cherry_log",
+                    "minecraft:stripped_mangrove_log"
+                ]
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+    "icon": {
+        "id": "minecraft:oak_log"
+    },
+      "title": {
+        "text": "Lumberjack",
+        "bold": false
+    },
+      "description": {
+        "text": "Cut down a tree"
+    },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:story/root",
+    "requirements": [
+      [
+        "Obtain_log",
+        "Obtain_stripped"
+      ]
+    ],
+    "rewards": {
+        "recipes": [
+            "minecraft:crafting_table",
+            "minecraft:wooden_axe",
+            "minecraft:wooden_pickaxe",
+            "minecraft:wooden_hoe",
+            "minecraft:wooden_sword",
+            "minecraft:wooden_shovel"
+        ],
+        "experience": 10
+    }
+  }

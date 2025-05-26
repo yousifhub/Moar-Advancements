@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:snow_block" },
+    "title": "Highland Biomes",
+    "description": "Explore all highland biomes",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ma:biomes/adventuring_time",
+  "criteria": {
+    "jagged_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:jagged_peaks" } } }
+    },
+    "frozen_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:frozen_peaks" } } }
+    },
+    "stony_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:stony_peaks" } } }
+    },
+    "meadow": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:meadow" } } }
+    },
+    "cherry_grove": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:cherry_grove" } } }
+    },
+    "grove": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:grove" } } }
+    },
+    "snowy_slopes": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:snowy_slopes" } } }
+    },
+    "windswept_hills": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:windswept_hills" } } }
+    },
+    "windswept_gravelly_hills": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:windswept_gravelly_hills" } } }
+    },
+    "windswept_forest": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:windswept_forest" } } }
+    }
+  },
+  "requirements": [
+    ["jagged_peaks"],
+    ["frozen_peaks"],
+    ["stony_peaks"],
+    ["meadow"],
+    ["cherry_grove"],
+    ["grove"],
+    ["snowy_slopes"],
+    ["windswept_hills"],
+    ["windswept_gravelly_hills"],
+    ["windswept_forest"]
+  ]
+}

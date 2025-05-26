@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:terracotta"
+      },
+      "title": "Badlands",
+      "description": "Visit a badlands",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_windswept_savanna",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:badlands"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

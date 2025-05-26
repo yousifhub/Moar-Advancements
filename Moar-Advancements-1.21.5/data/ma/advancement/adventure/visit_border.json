@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "title": "The Point Of No Return",
+    "description": "Visit the world border (Hopfully you have an enderpearl statis chamber)",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/adventuring_time",
+  "criteria": {
+    "visit_border": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "ma:visit_border"
+          }
+        ]
+      }
+    }
+  }
+}

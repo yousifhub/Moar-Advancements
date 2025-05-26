@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bolt_armor_trim_smithing_template"
+    },
+    "title": { "text": "Uncommon Trims", "color": "yellow" },
+    "description": "Obtain all uncommon trims",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ma:trims/obtain_all_trims",
+  "criteria": {
+    "sentry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:sentry_armor_trim_smithing_template"] }]
+      }
+    },
+    "dune": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:dune_armor_trim_smithing_template"] }]
+      }
+    },
+    "coast": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:coast_armor_trim_smithing_template"] }]
+      }
+    },
+    "wild": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:wild_armor_trim_smithing_template"] }]
+      }
+    },
+    "rib": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:rib_armor_trim_smithing_template"] }]
+      }
+    },
+    "tide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:tide_armor_trim_smithing_template"] }]
+      }
+    },
+    "wayfinder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:wayfinder_armor_trim_smithing_template"] }]
+      }
+    },
+    "raiser": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:raiser_armor_trim_smithing_template"] }]
+      }
+    },
+    "shaper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:shaper_armor_trim_smithing_template"] }]
+      }
+    },
+    "flow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:flow_armor_trim_smithing_template"] }]
+      }
+    },
+    "bolt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:bolt_armor_trim_smithing_template"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["sentry"],
+    ["dune"],
+    ["coast"],
+    ["wild"],
+    ["rib"],
+    ["tide"],
+    ["wayfinder"],
+    ["raiser"],
+    ["shaper"],
+    ["flow"],
+    ["bolt"]
+  ]
+}

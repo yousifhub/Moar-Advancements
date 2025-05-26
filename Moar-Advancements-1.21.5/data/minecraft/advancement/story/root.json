@@ -1,0 +1,55 @@
+{
+  "criteria": {
+    "logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_log",
+              "minecraft:birch_log",
+              "minecraft:jungle_log",
+              "minecraft:spruce_log",
+              "minecraft:acacia_log",
+              "minecraft:dark_oak_log",
+              "minecraft:crimson_stem",
+              "minecraft:warped_stem",
+              "minecraft:cherry_log",
+              "minecraft:mangrove_log",
+              "minecraft:stripped_oak_log",
+              "minecraft:stripped_birch_log",
+              "minecraft:stripped_jungle_log",
+              "minecraft:stripped_spruce_log",
+              "minecraft:stripped_acacia_log",
+              "minecraft:stripped_dark_oak_log",
+              "minecraft:stripped_crimson_stem",
+              "minecraft:stripped_warped_stem",
+              "minecraft:stripped_cherry_log",
+              "minecraft:stripped_mangrove_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "description": {
+      "translate": "advancements.story.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.story.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "logs"
+    ]
+  ]
+}

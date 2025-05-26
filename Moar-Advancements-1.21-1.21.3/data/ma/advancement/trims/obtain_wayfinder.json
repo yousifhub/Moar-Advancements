@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:wayfinder_armor_trim_smithing_template" },
+    "title": "Wayfinder",
+    "description": "Obtain wayfinder armor trim",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ma:trims/obtain_tide",
+  "criteria": {
+    "obtain_wayfinder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:wayfinder_armor_trim_smithing_template" }]
+      }
+    }
+  }
+}

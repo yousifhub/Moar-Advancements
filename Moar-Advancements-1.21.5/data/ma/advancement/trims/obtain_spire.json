@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:spire_armor_trim_smithing_template" },
+    "title": "Spire",
+    "description": "Obtain spire armor trim",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ma:trims/obtain_eye",
+  "criteria": {
+    "obtain_spire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:spire_armor_trim_smithing_template" }]
+      }
+    }
+  }
+}

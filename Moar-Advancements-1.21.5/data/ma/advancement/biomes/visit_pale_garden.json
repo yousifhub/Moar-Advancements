@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:pale_oak_log"
+      },
+      "title": "Pale Garden",
+      "description": "Visit a pale garden",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_dark_forest",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:pale_garden"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

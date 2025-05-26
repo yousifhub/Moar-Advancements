@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:jungle_log"
+      },
+      "title": "Sparse Jungle",
+      "description": "Visit a sparse jungle",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_jungle",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:sparse_jungle"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

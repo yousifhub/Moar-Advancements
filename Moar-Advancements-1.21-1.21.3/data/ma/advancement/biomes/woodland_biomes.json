@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:oak_sapling" },
+    "title": "Woodland Biomes",
+    "description": "Explore all woodland biomes",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ma:biomes/adventuring_time",
+  "criteria": {
+    "forest": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:forest" } } }
+    },
+    "flower_forest": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:flower_forest" } } }
+    },
+    "taiga": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:taiga" } } }
+    },
+    "old_growth_pine_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:old_growth_pine_taiga" } } }
+    },
+    "old_growth_spruce_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:old_growth_spruce_taiga" } } }
+    },
+    "snowy_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:snowy_taiga" } } }
+    },
+    "birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:birch_forest" } } }
+    },
+    "old_growth_birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:old_growth_birch_forest" } } }
+    },
+    "dark_forest": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:dark_forest" } } }
+    },
+    "jungle": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:jungle" } } }
+    },
+    "sparse_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:sparse_jungle" } } }
+    },
+    "bamboo_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "biomes": "minecraft:bamboo_jungle" } } }
+    }
+  },
+  "requirements": [
+    ["forest"],
+    ["flower_forest"],
+    ["taiga"],
+    ["old_growth_pine_taiga"],
+    ["old_growth_spruce_taiga"],
+    ["snowy_taiga"],
+    ["birch_forest"],
+    ["old_growth_birch_forest"],
+    ["dark_forest"],
+    ["jungle"],
+    ["sparse_jungle"],
+    ["bamboo_jungle"]
+  ]
+}

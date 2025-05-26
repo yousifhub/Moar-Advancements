@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:oak_leaves"
+        },
+        "title": "Windswept Forest",
+        "description": "Visit a windswept forest",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "ma:biomes/visit_windswept_gravelly_hills",
+    "criteria": {
+        "visit_location": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_forest"
+                    }
+                }
+            }
+        }
+    },
+    "sends_telemetry_event": true
+}

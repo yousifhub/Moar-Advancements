@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:oak_log"
+      },
+      "title": "Wooded Badlands",
+      "description": "Visit a wooded badlands",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_badlands",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:wooded_badlands"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:eye_armor_trim_smithing_template" },
+    "title": "Eye",
+    "description": "Obtain eye armor trim",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ma:trims/obtain_host",
+  "criteria": {
+    "obtain_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:eye_armor_trim_smithing_template" }]
+      }
+    }
+  }
+}

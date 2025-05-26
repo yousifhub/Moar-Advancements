@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:spruce_sapling"
+      },
+      "title": "Grove",
+      "description": "Visit a grove",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ma:biomes/visit_cherry_grove",
+    "criteria": {
+      "visit_location": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "minecraft:grove"
+            }
+          }
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
