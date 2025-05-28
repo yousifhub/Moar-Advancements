@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_strad"
+    },
+    "title": "Strad",
+    "description": "Obtain Strad music disc",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ma:discs/obtain_stal",
+  "criteria": {
+    "obtain_music_disc_strad": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_strad"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_pigstep"
+    },
+    "title": "You Can Tune A Fish!",
+    "description": "Obtain all of the music discs",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ma:discs/root",
+  "criteria": {
+    "minecraft:music_disc_13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_13" }]
+      }
+    },
+    "minecraft:music_disc_cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_cat" }]
+      }
+    },
+    "minecraft:music_disc_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_blocks" }]
+      }
+    },
+    "minecraft:music_disc_chirp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_chirp" }]
+      }
+    },
+    "minecraft:music_disc_far": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_far" }]
+      }
+    },
+    "minecraft:music_disc_mall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_mall" }]
+      }
+    },
+    "minecraft:music_disc_mellohi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_mellohi" }]
+      }
+    },
+    "minecraft:music_disc_stal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_stal" }]
+      }
+    },
+    "minecraft:music_disc_strad": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_strad" }]
+      }
+    },
+    "minecraft:music_disc_ward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_ward" }]
+      }
+    },
+    "minecraft:music_disc_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_11" }]
+      }
+    },
+    "minecraft:music_disc_wait": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_wait" }]
+      }
+    },
+    "minecraft:music_disc_otherside": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_otherside" }]
+      }
+    },
+    "minecraft:music_disc_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_5" }]
+      }
+    },
+    "minecraft:music_disc_pigstep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_pigstep" }]
+      }
+    },
+    "minecraft:music_disc_relic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_relic" }]
+      }
+    },
+    "minecraft:music_disc_creator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_creator" }]
+      }
+    },
+    "minecraft:music_disc_creator_music_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_creator_music_box" }]
+      }
+    },
+    "minecraft:music_disc_precipice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:music_disc_precipice" }]
+      }
+    }
+  }
+}

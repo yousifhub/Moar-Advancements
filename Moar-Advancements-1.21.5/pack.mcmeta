@@ -1,6 +1,8 @@
 {
-    "pack": {
-        "pack_format": 50,
-        "description": "Moar of them?"
+  "pack": {
+    "pack_format": 71,
+    "description": {
+        "text": "Moar Of Them?"
     }
+  }
 }

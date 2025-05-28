@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_otherside"
+    },
+    "title": "Otherside",
+    "description": "Obtain Otherside music disc",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ma:discs/modern",
+  "criteria": {
+    "obtain_music_disc_otherside": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_otherside"
+          }
+        ]
+      }
+    }
+  }
+}
